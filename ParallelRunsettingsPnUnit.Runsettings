@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RunSettings>
+<TestGroup>
+  <ParallelTests>
+    <ParallelTest>
+      <Name>Testing</Name>
+      <Tests>
+        <TestConf>
+          <Name>Case1</Name>
+          <Assembly>UnitTestProjectA.dll</Assembly>
+          <TestToRun>UnitTestProjectA.UnitTest1</TestToRun>
+          <!--<Machine>localhost:8080</Machine> -->
+          <!--<TestParams>
+            <string>firefox</string>
+            
+            <string>20.0</string>
+            
+            <string>WIN8</string>
+            
+          </TestParams>-->
+        </TestConf>
+        <TestConf>
+          <Name>Case2</Name>
+          <Assembly>UnitTestProjectB.dll</Assembly>
+          <TestToRun>UnitTestProjectB.UnitTest1</TestToRun>
+          <!--<Machine>localhost:8080</Machine>-->
+          <!--<TestParams>
+            <string>firefox</string>
+            <string>21.0</string>
+            <string>VISTA</string>
+          </TestParams>-->
+        </TestConf>
+        <TestConf>
+          <Name>Case3</Name>
+          <Assembly>UnitTestProjectC.dll</Assembly>
+          <TestToRun>UnitTestProjectC.UnitTest1</TestToRun>
+          <!--<Machine>localhost:8080</Machine>-->
+          <!--<TestParams>
+            <string>firefox</string>
+            <string>21.0</string>
+            <string>VISTA</string>
+          </TestParams>-->
+        </TestConf>
+        <TestConf>
+          <Name>Pnunit</Name>
+          <Assembly>Pnunit.dll</Assembly>
+          <TestToRun>UnitTest1</TestToRun>
+          <!--<Machine>localhost:8080</Machine>-->
+          <!--<TestParams>
+            <string>firefox</string>
+            <string>21.0</string>
+            <string>VISTA</string>
+          </TestParams>-->
+        </TestConf>
+        </Tests>
+    </ParallelTest>
+  </ParallelTests>
+</TestGroup>
+  </RunSettings>
